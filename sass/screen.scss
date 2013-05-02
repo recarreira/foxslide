@@ -7,3 +7,11 @@
 @import "custom/layout";
 @import "base";
 @import "custom/styles";
+
+a {
+	color: $link_color;
+	&:hover {
+		color: $link_hover_color;
+	}
+}
+

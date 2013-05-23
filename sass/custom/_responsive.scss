@@ -1,0 +1,32 @@
+@media (max-width: 979px) {
+	#front-wrapper {
+		margin-top: 390px;
+	}
+}
+
+@media (max-width: 767px) {
+	#front-wrapper {
+		margin-top: 285px;
+
+		#hero-inner {
+			margin-top: 0;
+			h1 {
+				font-size: 45px;
+			}
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	#front-wrapper {
+		margin-top: 249px;
+
+		#hero-inner {
+			margin-top: 0;
+			h1 {
+				font-size: 36px;
+			}
+		}
+	}
+
+}
